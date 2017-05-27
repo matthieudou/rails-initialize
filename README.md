@@ -10,3 +10,4 @@ gem install rails
 ## Minimal Template
 > Directly inspired from *LeWagon*.
 
+TODO
