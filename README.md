@@ -10,4 +10,7 @@ gem install rails
 ## Minimal Template
 > Directly inspired from *LeWagon*.
 
-TODO
+```shell
+rails new APP_NAME -m https://github.com/matthieudou/rails-initialize/blob/master/templates/minimal.rb
+```
+This will create a new rails app with the minimal template.
