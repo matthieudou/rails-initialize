@@ -19,7 +19,7 @@ gem 'autoprefixer-rails'
 gem 'font-awesome-sass'
 gem 'materialize-sass'
 gem 'material_icons'
-gem 'simple_form-materialize'
+gem 'simple_form_materialize'
 
 group :development, :test do
   gem 'binding_of_caller'
