@@ -21,7 +21,7 @@ All these templates are already implemented and configured with the following:
 Rails template based on [Materilal design](https://material.io/guidelines/), and more precisely on the [Materialize css](http://materializecss.com/).
 
 ```shell
-rails new APP_NAME -m https://github.com/matthieudou/rails-initialize/blob/master/templates/rails-materialize.rb --database=postgresql
+rails new APP_NAME -m https://raw.githubusercontent.com/matthieudou/rails-initialize/master/templates/rails-materialize.rb --database=postgresql
 ```
 
 ## `rails-materialize-users` Template
