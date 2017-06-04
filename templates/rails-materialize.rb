@@ -19,6 +19,7 @@ gem 'autoprefixer-rails'
 gem 'font-awesome-sass'
 gem 'materialize-sass'
 gem 'material_icons'
+gem 'simple_form'
 gem 'simple_form_materialize'
 
 group :development, :test do
@@ -134,7 +135,7 @@ after_bundle do
   # Generators: db + simple form + pages controller
   # =======================================
   rake 'db:drop db:create db:migrate'
-  generate('simple_form:materialize:install')
+  generate('simple_form_materialize:install')
   generate(:controller, 'pages', 'home', '--no-helper', '--no-assets', '--skip-routes')
 
   # Routes

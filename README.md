@@ -1,13 +1,15 @@
 > The templates are currently under construction... ![](https://img.shields.io/teamcity/http/teamcity.jetbrains.com/s/bt345.svg)
 
-# Rails Templates
+# Rails-initialize
 Generating templates for rails apps with some default configs.
 > Based on [LeWagon](https://github.com/lewagon/rails-templates) and [rails-templates](http://guides.rubyonrails.org/rails_application_templates.html)
 
 For everything that follows, you need to have Rails installed. So if you don't have rails, you can run the next command.
+
 ```shell
 gem install rails
 ```
+
 All these templates are already implemented and configured with the following:
 
 - [Figaro](https://github.com/laserlemon/figaro): preventing your `config/application.yml` from being uploaded on github.
@@ -23,16 +25,3 @@ Rails template based on [Materilal design](https://material.io/guidelines/), and
 ```shell
 rails new APP_NAME -m https://raw.githubusercontent.com/matthieudou/rails-initialize/master/templates/rails-materialize.rb --database=postgresql
 ```
-
-## `rails-materialize-users` Template
-todo
-
-## `rails-bootstrap` Template
-> Directly inspired from *LeWagon*.
-
-todo
-
-## `rails-bootstrap-users` Template
-> Also inspired from *LeWagon*.
-
-todo
