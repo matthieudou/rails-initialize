@@ -17,10 +17,11 @@ All these templates are already implemented and configured with the following:
 - `application.html.erb`: Removing the auto-generated layout and replacing it with a custom one.
 - `Readme.md`: Creating a basic readme.
 - tests: Creating a test folder
+- [simple_form](https://github.com/plataformatec/simple_form): Generating a custom `simple_form_for`
 - `git`: Creating the initial commit.
 
 ## `rails-materialize` Template
-Rails template based on [Materilal design](https://material.io/guidelines/), and more precisely on the [Materialize css](http://materializecss.com/).
+Rails template based on [Materilal design](https://material.io/guidelines/), and more precisely on the [Materialize css](http://materializecss.com/) framework.
 
 ```shell
 rails new APP_NAME -m https://raw.githubusercontent.com/matthieudou/rails-initialize/master/templates/rails-materialize.rb --database=postgresql
