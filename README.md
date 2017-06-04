@@ -1,4 +1,3 @@
-> The templates are currently under construction... [![Build Status](https://travis-ci.org/matthieudou/rails-initialize.svg?branch=master)](https://travis-ci.org/matthieudou/rails-initialize)
 
 # Rails-initialize
 Generating templates for rails apps with some default configs.
