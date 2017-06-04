@@ -1,4 +1,4 @@
-> The templates are currently under construction... ![](https://img.shields.io/teamcity/http/teamcity.jetbrains.com/s/bt345.svg)
+> The templates are currently under construction... ![](https://raw.githubusercontent.com/dwyl/repo-badges/master/highresPNGs/build-passing.png)
 
 # Rails-initialize
 Generating templates for rails apps with some default configs.
