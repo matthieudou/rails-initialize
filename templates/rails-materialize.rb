@@ -20,7 +20,6 @@ gem 'font-awesome-sass'
 gem 'materialize-sass'
 gem 'material_icons'
 gem 'simple_form'
-gem 'simple_form_materialize'
 
 group :development, :test do
   gem 'binding_of_caller'
@@ -135,7 +134,9 @@ after_bundle do
   # Generators: db + simple form + pages controller
   # =======================================
   rake 'db:drop db:create db:migrate'
-  generate('simple_form_materialize:install')
+  generate('simple_form:install')
+  # installs the materialize variables for simple_form
+
   generate(:controller, 'pages', 'home', '--no-helper', '--no-assets', '--skip-routes')
 
   # Routes
