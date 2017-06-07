@@ -19,7 +19,6 @@ gem 'autoprefixer-rails'
 gem 'font-awesome-sass'
 gem 'materialize-sass'
 gem 'material_icons'
-gem 'simple_form'
 
 group :development, :test do
   gem 'binding_of_caller'
@@ -131,12 +130,9 @@ environment generators
 # AFTER BUNDLE
 # =======================================
 after_bundle do
-  # Generators: db + simple form + pages controller
+  # Generators: db + pages controller
   # =======================================
   rake 'db:drop db:create db:migrate'
-  generate('simple_form:install')
-  # installs the materialize variables for simple_form
-  run "curl -L https://raw.githubusercontent.com/matthieudou/rails-initialize/master/config_files/simple_form.rb > config/initializers/simple_form.rb"
   generate(:controller, 'pages', 'home', '--no-helper', '--no-assets', '--skip-routes')
 
   # generating home-page
