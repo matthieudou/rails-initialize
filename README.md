@@ -25,3 +25,9 @@ Rails template based on [Materilal design](https://material.io/guidelines/), and
 ```shell
 rails new APP_NAME -m https://raw.githubusercontent.com/matthieudou/rails-initialize/master/templates/rails-materialize.rb --database=postgresql
 ```
+## `rails-bootstrap-material` Template
+Rails template based on the bootstrap framework from twitter. It comes with a material design theme on it.
+
+```shell
+rails new APP_NAME -m https://raw.githubusercontent.com/matthieudou/rails-initialize/master/templates/rails-bootstrap-material.rb --database=postgresql
+```
